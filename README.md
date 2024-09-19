@@ -1,8 +1,6 @@
-# Starter folder
-
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+Contains qmd file about effect of covid on marriages.
 
 
 ## File Structure
