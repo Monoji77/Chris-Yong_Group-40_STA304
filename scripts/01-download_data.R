@@ -3,9 +3,6 @@
 # Author: Chris Yong
 # Date: 19 September 2024
 # Contact: luke.yong@mail.utoronto.ca
-# License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
 
 
 #### Workspace setup ####
