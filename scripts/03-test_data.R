@@ -10,6 +10,14 @@
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
 
 #### Test data ####
+data <- read_csv('data/raw_data/simulated.csv')
+
+####  test for negative numbers #### 
+data$number_of_marriages |> min() <= 0
+
+####  test for negative numbers #### 
+sum(is.na(data$number_of_marriages)) != 0
+
+

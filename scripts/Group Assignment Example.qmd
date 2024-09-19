@@ -1,0 +1,25 @@
+---
+title: "STA304 Lecture 3"
+format: pdf
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+Loading libraries
+
+```{r loading libraries}
+library(tidyverse)
+```
+
+Parsing data
+
+```{r}
+data <- read_csv("../data/raw_data/Marriage Licence Statistics Data.csv")
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
