@@ -1,11 +1,8 @@
 #### Preamble ####
 # Purpose: Simulates number of marriages in the year 2023
 # Author: Chris Yong
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
-# License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Date: 19 Sep 2024
+# Contact: luke.yong@mail.utoronto.ca
 
 
 #### Workspace setup ####
@@ -28,6 +25,3 @@ data <-
   )
 
 write_csv(data, file = 'data/raw_data/simulated.csv')
-
-setwd('C:/Users/chris/OneDrive/Personal/Education/Y3S1/STA304/Lecture 3/starter_folder')
-data

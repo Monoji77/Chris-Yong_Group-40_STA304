@@ -19,7 +19,7 @@ data <- raw_data %>%
   janitor::clean_names() %>%
   mutate(time_period = lubridate::ymd(paste(time_period, '01', sep='-')))
 
-data <- raw_data %>%
+cleaned_data <- raw_data %>%
   janitor::clean_names() %>%
   mutate(time_period = lubridate::ym(time_period))
 
